@@ -9,8 +9,7 @@ import javax.script.ScriptException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
-public class Trial {
+public class Trial implements Expression {
     static RandomGenerator rng = new MersenneTwister();
     private ArrayList<Integer> dice(int n, int sides) {
         ArrayList<Integer> ret = new ArrayList<Integer>();
